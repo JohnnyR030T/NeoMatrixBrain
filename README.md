@@ -154,6 +154,7 @@ Password Cracking
 ----------------
 Hashcat
 - `hashcat -m 500 -a 0 -o cracked_password.txt --force hash.txt /path/to/your/wordlist.txt`
+- `hashcat -w 3 -a 3 -m 1731 -p : -o .\mssqlcracked.txt .\sqlpass.txt` (MSSQL Brute Force)
 
 John The Ripper
 - `john --rules --wordlist=/path/to/your/wordlist.txt hash.txt`

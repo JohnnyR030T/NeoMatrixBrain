@@ -150,8 +150,6 @@ where pwdcompare('password', PassColumnName)=1
 ```
 [![MSSQL Hash Crash Video](https://i.ytimg.com/vi/5dbWjS24ieE/hqdefault.jpg)](https://youtu.be/5dbWjS24ieE)
 	
-<iframe width="1024" height="768" src="https://www.youtube.com/embed/5dbWjS24ieE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
-	
 Password Cracking
 ----------------
 Hashcat

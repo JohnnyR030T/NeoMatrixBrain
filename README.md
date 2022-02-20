@@ -142,6 +142,15 @@ MSSQL / SQLi
 - https://github.com/codingo/OSCP-2/blob/master/Documents/SQL%20Injection%20Cheatsheet.md
 - http://pentestmonkey.net/category/cheat-sheet/sql-injection
 
+MSSQL (Query to compare pass to hash using built in pwdcompare function)
+----------------
+```sql
+select * from syslogins
+where pwdcompare('password', PassColumnName)=1
+```
+
+<iframe width="1024" height="768" src="https://www.youtube.com/embed/5dbWjS24ieE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+	
 Password Cracking
 ----------------
 Hashcat
